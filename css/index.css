@@ -1,5 +1,5 @@
 .splash {
-    background: #D1DEEA url("/images/hoppers-background.jpg") no-repeat top center;
+    background: #D1DEEA url("../images/hoppers-background.jpg") no-repeat top center;
 	background-size: auto 100%;
 	background-position: left top;
 	background-attachment: fixed;
