@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="shortcut icon" type="image/png" href="./data/images/favicon.png" />
+	    <link rel="stylesheet" type="text/css" href="./css/index.css" media="all" />
+		<script src="./js/index.js"></script>		
+		<meta charset="UTF-8">
+		<title>Hoppers</title>
+	</head>
+	<body class="splash">
+	    <div class="container">
+	        <h1>Hoppers level#6</h1>
+	        
+			<span id="question1">
+			<h3> question#1whitch of the following is a item or thing in the rainforest?</h3>
+			<form>
+			  <input type="radio" name="q1" value= "red eyed tree frog" onclick="showMessage('try again')">red eyed tree frog  <br>
+			  <input type="radio" name="q1" value="plants" onclick="showMessage('try again')">plants <br>
+			  <input type="radio" name="q1" value="all of the above" onclick="showMessage('nice work'); moveFrog('60%', '100px')">all of the above 
+			</form>
+			</span>
+			
+			<span id="question2">
+			<h3> question#2 what do red eyed tree frogs eat?</h3>
+			<form>
+			  <input type="radio" name="q2" value= "other red eyed tree frogs" onclick="showMessage('great job');moveFrog( '45%', '440px')" >other red eyed tree frogs <br>
+			  <input type="radio" name="q2" value="lion" onclick="showMessage('try again')">lion <br>
+			  <input type="radio" name="q2" value="horse" onclick="showMessage('try again')">horse <br/>
+			</form>
+			</span>
+			
+			<span id="question3">
+			<h3> question#3 the layers of the ____have diffrent anamals. </h3>
+			<form>
+
+			<input type="radio" name="q3" value="tiger" onclick="showMessage('try again')">tiger <br>	
+			<input type="radio" name="q3" value=" rainforest" onclick="showMessage('amazing work');moveFrog('30%', '100px');document.getElementById('nextLevel').style.display='block'">  rainforest<br/>
+
+	
+
+			</form>
+			</span> 
+			<span id="nextLevel" > <a href="/l7">next level</a></span>
+			
+			
+			
+			
+			
+			
+			
+			<h3 id="question3"></h3>
+		    
+			<img id="hoppers" src="/images/hopper.gif">
+	    </div>
+	</body>
+</html>

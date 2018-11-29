@@ -1,0 +1,40 @@
+.splash {
+    background: #D1DEEA url("/images/hoppers-background.jpg") no-repeat top center;
+	background-size: auto 100%;
+	background-position: left top;
+	background-attachment: fixed;
+}
+
+#hoppers {
+	position:absolute;
+	height:200px; 
+	width: 200;
+	top:78%;
+	left:440px;
+}
+#question1 {
+	color:blue;
+	position:absolute;
+	left:70%;
+	top:10%;
+}
+#question2{
+ color:red;
+ position:absolute;
+ top:40%;
+ left:70%;
+ display:block;
+ }
+ #question3{
+ color:green;
+ position:absolute;
+ top:60%;
+ left:70%;
+ display:block;
+}
+
+#nextLevel{
+	display:none;
+}
+ 
+    

@@ -1,0 +1,14 @@
+{
+  "name": "com.gormanly.nicholas.hoppers",
+  "version": "1.0.0",
+  "description": "Red Eyed Tree Frog Hoppers Game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nicholas.gormanly",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

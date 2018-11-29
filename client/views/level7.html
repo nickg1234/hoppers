@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="shortcut icon" type="image/png" href="./data/images/favicon.png" />
+	    <link rel="stylesheet" type="text/css" href="./css/index.css" media="all" />
+		<script src="./js/index.js"></script>		
+		<meta charset="UTF-8">
+		<title>Hoppers</title>
+	</head>
+	<body class="splash">
+	    <div class="container">
+	        <h1>Hoppers level#7 math part</h1>
+	        
+			<span id="question1">
+			<h3> question#1 7+7=</h3>
+			<form>
+			  <input type="radio" name="q1" value= "9" onclick="showMessage('try again')">9  <br>
+			  <input type="radio" name="q1" value="17" onclick="showMessage('try again')">17 <br>
+			  <input type="radio" name="q1" value="14" onclick="showMessage('nice work'); moveFrog('60%', '100px')"> 14
+			</form>
+			</span>
+			
+			<span id="question2">
+			<h3> question#2 what is 9+8</h3>
+			<form>
+			  <input type="radio" name="q2" value= "17 onclick="showMessage('great job');moveFrog( '45%', '440px')" >17 <br>
+			  <input type="radio" name="q2" value="10" onclick="showMessage('try again')">10 <br>
+			  <input type="radio" name="q2" value="19" onclick="showMessage('try again')">19 <br/>
+			</form>
+			</span>
+			
+			<span id="question3">
+			<h3> question#3 100+350 </h3>
+			<form>
+
+			<input type="radio" name="q3" value="500" onclick="showMessage('try again')">500 <br>	
+			<input type="radio" name="q3" value=" 450" onclick="showMessage('amazing work');moveFrog('30%', '100px');document.getElementById('nextLevel').style.display='block'">  450<br/>
+
+	
+
+			</form>
+			</span> 
+			<span id="nextLevel" > <a href="/l8">play again</a></span>
+			
+			
+			
+			
+			
+			
+			
+			<h3 id="question3"></h3>
+		    
+			<img id="hoppers" src="/images/hopper.gif">
+	    </div>
+	</body>
+</html>
