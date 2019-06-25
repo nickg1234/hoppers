@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="shortcut icon" type="image/png" href="./data/images/favicon.png" />
+	    <link rel="stylesheet" type="text/css" href="./css/index.css" media="all" />
+		<script src="./js/index.js"></script>		
+		<meta charset="UTF-8">
+		<title>Hoppers</title>
+	</head>
+	<body class="splash">
+	    <div class="container">
+	        <h1>new level trivia!!!</h1>
+	        
+			<span id="question1">
+			<h3> who was the seventh presidant of the USA? </h3>   
+			<form>
+			  <input type="radio" name="q1" value= "george washington" onclick="showMessage('try again')">george washington  <br/>
+			  <input type="radio" name="q1" value="bob the builder" onclick="showMessage('try again')">bob the builder <br/>
+			  <input type="radio" name="q1" value="Andrew Jackson" onclick="showMessage('nice work'); moveFrog('60%', '100px')"> Andrew Jackson <br/>
+			</form>
+			</span>
+			
+			<span id="question2">
+			<h3> question#2 who is the 2nd vice president?</h3>
+			<form>
+			  <input type="radio" name="q2" value= "Thomas Jefferson" onclick="showMessage('great job');moveFrog( '45%', '440px')" >John Adams <br>
+			  <input type="radio" name="q2" value="bob the builder" onclick="showMessage('try again')">bob the builder <br>
+			  <input type="radio" name="q2" value="mark david" onclick="showMessage('try again')">mark david <br/>
+			</form>
+			</span>
+			
+			<span id="question3">
+			<h3> question#3 who was the first imigrant to land on eliss island? </h3>
+			<form>
+			<input type="radio" name="q3" value="Annie morine" onclick="showMessage('try again')">Annie morine <br>	
+			<input type="radio" name="q3" value="Annie Moore " onclick="showMessage('amazing work');moveFrog('30%', '100px');document.getElementById('nextLevel').style.display='block'">  Annie Moore<br/>
+	
+			</form>
+			</span> 
+			<span id="nextLevel" > <a href="./index.html">You win!!! Play again.</a></span>
+			
+			
+			
+			
+			
+			
+			
+			<h3 id="question3"></h3>
+		    
